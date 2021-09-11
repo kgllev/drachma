@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="uri_query" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/uri_query/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/uri_query/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/uri_query/lib" />
+      <root url="file://$PROJECT_DIR$/deps/uri_query/lib" />
+    </SOURCES>
+  </library>
+</component>
