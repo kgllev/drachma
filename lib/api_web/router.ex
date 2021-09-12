@@ -5,8 +5,16 @@ defmodule ApiWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/api", ApiWeb do
+  scope "/api/v1", ApiWeb do
     pipe_through :api
+    scope "/stripe", Stripe do
+      get "/my-subscriptions",  SubscriptionController, :list_user_subscriptions
+      get "/all-subscriptions", SubscriptionController, :list_all_subscriptions
+      post "/save-card-and-subscription", SubscriptionController, :create_subscription
+      get "/last-and-upcoming-payments", SubscriptionController, :list_upcoming_payments
+      get "/billing-history", SubscriptionController, :list_billing_history
+      post "/webhook", WebHookController, :web_hook
+    end
   end
 
   # Enables LiveDashboard only for development

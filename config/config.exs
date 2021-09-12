@@ -29,7 +29,7 @@ config :phoenix, :json_library, Jason
 
 config :stripity_stripe,
        hackney_opts: [{:connect_timeout, 1_000}, {:recv_timeout, 5_000}],
-       api_key: "sk_test_51JV9OSSGLvMTa3qVQGL5oc6UusqzdXaERjWnAOTmcNjK44emrv8dS6WZomBR96RQxzBQQeqoXIIdzbsoNsD0jVs500EG7uso1T"
+         api_key: "sk_test_51JV9OSSGLvMTa3qVQGL5oc6UusqzdXaERjWnAOTmcNjK44emrv8dS6WZomBR96RQxzBQQeqoXIIdzbsoNsD0jVs500EG7uso1T"
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

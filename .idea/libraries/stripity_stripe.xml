@@ -3,9 +3,17 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/_build/dev/lib/stripity_stripe/ebin" />
       <root url="file://$PROJECT_DIR$/_build/dev/lib/stripity_stripe/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/stripity_stripe/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/stripity_stripe/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/stripity_stripe/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/stripity_stripe/ebin" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/stripity_stripe/lib" />
+      <root url="file://$PROJECT_DIR$/deps/stripity_stripe/lib" />
+      <root url="file://$PROJECT_DIR$/deps/stripity_stripe/lib" />
+      <root url="file://$PROJECT_DIR$/deps/stripity_stripe/lib" />
       <root url="file://$PROJECT_DIR$/deps/stripity_stripe/lib" />
       <root url="file://$PROJECT_DIR$/deps/stripity_stripe/lib" />
     </SOURCES>
